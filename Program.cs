@@ -67,7 +67,7 @@ namespace EjercicioIF1
             }
             
         }
-        static void Boleano4() 
+        static void Boleano4() //Esta fue la alternativa que propuse.
         {
             Console.WriteLine("Vamos a evaluar si puedes conducir un vehiculo");
             Console.WriteLine("Introduce tu edad, por favor");
@@ -91,7 +91,7 @@ namespace EjercicioIF1
             }
         }
         static void Boleano4B() 
-        {
+        {//Declarando al inicio la variable "carnet" para que posteriormente tome un valor
             string carnet = "no";
             Console.WriteLine("Vamos a evaluar si puedes conducir un vehiculo");
             Console.WriteLine("Introduce tu edad, por favor");
