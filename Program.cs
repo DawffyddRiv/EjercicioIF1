@@ -15,7 +15,8 @@ namespace EjercicioIF1
             //Boleano4();
             //Boleano4B();
             //Boleano5();
-            Uniony();
+            //Uniony();
+            BoleanoElseIF();
         }
         static void Condicionalif() 
         {
@@ -152,6 +153,27 @@ namespace EjercicioIF1
             else
             {
                 Console.WriteLine("Tienes que realizar examen(es) de reposición");
+            }
+        }
+        static void BoleanoElseIF()
+        {
+            Console.WriteLine("Introduce tu edad,por favor");
+            int edad = Int32.Parse(Console.ReadLine());
+            if (edad < 18)
+            {
+                Console.WriteLine("Eres un niño");
+            }
+            else if( edad < 30)
+            {
+                Console.WriteLine("Eres joven");
+            }
+            else if (edad < 60)
+            {
+                Console.WriteLine("Eres un adulto");
+            }
+            else
+            {
+                Console.WriteLine("Eres un adulto mayor");
             }
         }
     }
